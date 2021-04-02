@@ -1,5 +1,7 @@
 ## Automatic Differentiation and CNNs
 
+This project is heavily inspired by [micrograd](https://github.com/karpathy/micrograd) and [tinygrad](https://github.com/geohot/tinygrad).
+
 In this project I wrote an AD library and put it to the test by training a CNN on the MNIST dataset.
 
 In the folder `AutomaticDifferntiation` you can find the core types for scalars, vectors, matrices and tensors as well as the logic for backpropagating basic functions such as addition, multiplication, subsetting, etc.
